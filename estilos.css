@@ -75,6 +75,7 @@ line-height: 40px;
 .sobre-mi{
 padding-top: 40px;
 	width: 100%;
+
 }
 .sobre-mi p{
 	font-size: 20px;
@@ -305,6 +306,12 @@ margin-right: 0px;
 
 }
 
+@media screen and (max-width: 970px){
+		.ola{
+		padding-top: 70px;
+	}
+}
+
 @media screen and (max-width:780px){
 	
 	.iniciotexto .nombre{
@@ -361,6 +368,9 @@ font-size: 45px;
 }
 
 @media screen and (max-width:560px){
+		.ola{
+		padding-top: 100px;
+	}
 	.trabajo img{
 		width: 300px;
 	}
@@ -376,11 +386,19 @@ font-size: 45px;
 		line-height: 25px;
 	}
 	.seccion2{
-		margin-bottom: 120px;
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width:475px){
+	.inicio{
+		padding-top: 100px;
 	}
 }
 
 @media screen and (max-width:415px){
+	.inicio{
+		padding-top: 130px;
+	}
 		.trabajo img{
 			width: 200px;
 		}
@@ -437,11 +455,22 @@ line-height: 30px;
 }
 }
 @media screen and (max-width:350px){
+		.inicio{
+		padding-top: 70px;
+	}
 .seccion2{
-		margin-bottom: 150px;
+		margin-bottom: 100px;
 	}
 	.ola{
 		padding-top: 100px;
 	}
 }
+}
+@media screen and (max-width: 288px){
+	.seccion2{
+	
+	}
+	.inicio{
+		padding-top: 100px;
+	}
 }
