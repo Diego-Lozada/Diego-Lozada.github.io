@@ -18,6 +18,13 @@ background-size: 1500px;
 	margin: auto;
 	
 }
+ .inicio img{
+	margin: 0;
+	padding: 0;
+}
+.inicio img{
+	width:  100px;
+}
 .inicio{
 	display: flex;
 	flex-wrap: wrap;
@@ -41,7 +48,7 @@ background-size: 1500px;
 	color:  #fff;
 	font-size: 60px;
 margin-bottom: 15px;
-line-height: 40px;
+
 }
 
 .iniciotexto .descripcion {
@@ -50,6 +57,7 @@ line-height: 40px;
 	width: 60%;
  margin: auto;
 	margin-bottom: 35px;
+	padding-bottom: 20px;
 }
 .iniciotexto span{
 	 color: #6C63FF;
@@ -71,25 +79,11 @@ line-height: 40px;
    background: #3F3D56;
    color: #fff;
 }
-
-.sobre-mi{
-padding-top: 40px;
-	width: 100%;
-
+.columnas{
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 70px;
 }
-.sobre-mi p{
-	font-size: 20px;
-	width: 100%;
-	margin: auto;
-	color: #fff;
-	text-align: center;
-}
-
-.sobre-mi  span{
-		color: #6C63FF;
-		font-weight: 600;
-}
-
 
 
 .trabajos{
@@ -124,10 +118,10 @@ margin-bottom: 50px;
 }
 
 .trabajo img:hover{
-	width: 515px;
+	width: 375px;
 }
 .trabajo img{
-	width: 500px;
+	width: 350px;
 	margin: 20px;
 	transition: .7s;
 }
@@ -277,6 +271,43 @@ margin-right: 0px;
 		transform: translateX(100%);
 	}
 }
+
+.informacion {
+	background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url(computadora.jpg);
+	background-size: 1500px;
+}
+.Acerca-de-mi{
+	background: #6C63FF;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+.Acerca-de-mi h2{
+	font-size: 40px;
+text-align: center;
+	color: #fff;
+}
+
+.sobre-mi{
+	padding-top: 70px;
+	padding-bottom: 70px;
+line-height: 50px;
+	width: 50%;
+	margin: auto;
+}
+.sobre-mi p{
+	font-size: 20px;
+	width: 100%;
+	margin: auto;
+	color: #fff;
+	font-weight: 700;
+	text-align: center;
+}
+
+.sobre-mi  span{
+		color: #6C63FF;
+		font-weight: 600;
+}
+
 /*----Menu----*/
 
 
@@ -456,21 +487,13 @@ line-height: 30px;
 }
 @media screen and (max-width:350px){
 		.inicio{
-		padding-top: 70px;
+		padding-top: 80px;
 	}
 .seccion2{
-		margin-bottom: 100px;
+		margin-bottom: 90px;
 	}
 	.ola{
 		padding-top: 100px;
 	}
 }
-}
-@media screen and (max-width: 288px){
-	.seccion2{
-	
-	}
-	.inicio{
-		padding-top: 100px;
-	}
 }
