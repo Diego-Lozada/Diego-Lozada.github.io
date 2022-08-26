@@ -79,13 +79,14 @@ margin-bottom: 15px;
    background: #3F3D56;
    color: #fff;
 }
-.columnas{
-	display: flex;
-	flex-wrap: wrap;
-	padding-top: 70px;
+
+.inicioimagen img{
+	width: 400px;
+	transition:.7s;
 }
-
-
+.inicioimagen img:hover{
+	width: 415px;
+}
 .trabajos{
 background-image: url(jeremy-perkins-FsK54FVNRfM-unsplash.jpg);
 background-size: 1000px;
@@ -272,26 +273,37 @@ margin-right: 0px;
 	}
 }
 
+
 .informacion {
 	background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url(computadora.jpg);
 	background-size: 1500px;
+	height: 100vh;
 }
+.columnas{
+max-width: 1280px;
+padding-top: 60px;
+text-align: center;
+margin: auto;
+}
+.columnas img{
+	width: 400px;
+}
+
 .Acerca-de-mi{
 	background: #6C63FF;
-	padding-top: 40px;
-	padding-bottom: 40px;
+
+
 }
 .Acerca-de-mi h2{
 	font-size: 40px;
 text-align: center;
 	color: #fff;
+	padding: 15px 0px 15px 0px;
 }
 
 .sobre-mi{
-	padding-top: 70px;
-	padding-bottom: 70px;
 line-height: 50px;
-	width: 50%;
+	width: 60%;
 	margin: auto;
 }
 .sobre-mi p{
