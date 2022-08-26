@@ -30,8 +30,13 @@ background-size: 1500px;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: space-around;
-	padding-top: 150px;
-	padding-bottom: 150px;
+	padding-top: 150p;
+	 position: absolute;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+	padding-bottom: 150p;
 
 }
 .iniciotexto{
@@ -277,11 +282,11 @@ margin-right: 0px;
 .informacion {
 	background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url(computadora.jpg);
 	background-size: 1500px;
-	height: 100vh;
 }
 .columnas{
 max-width: 1280px;
 padding-top: 60px;
+padding-bottom: 60px;
 text-align: center;
 margin: auto;
 }
@@ -307,8 +312,8 @@ text-align: center;
 }
 
 .sobre-mi{
-line-height: 50px;
-	width: 60%;
+line-height: 40px;
+	width: 100%;
 	margin: auto;
 }
 .sobre-mi p{
@@ -329,6 +334,16 @@ line-height: 50px;
 
 
 @media screen and (max-width:1195px){
+	.trabajo img{
+		width: 450px;
+	}
+	.inicio{
+		padding-top: 100px;
+
+	}
+	.margen-ola{
+		padding-top: 150px;
+	}
 .inicioimagen img{
 	margin-top: 50px;
 }
@@ -361,6 +376,9 @@ line-height: 50px;
 }
 
 @media screen and (max-width:780px){
+	.Acerca-de-mi h2{
+		font-size: 30px;
+	}
 	
 	.iniciotexto .nombre{
 		font-size: 25px;
@@ -373,7 +391,7 @@ font-size: 45px;
 	font-size: 17px;
 }
 .inicioimagen img{
-	width: 300px;
+	width: 400px;
 }
 .tituloservicios h2{
 	font-size: 30px;
@@ -405,6 +423,9 @@ font-size: 45px;
 }
 
 @media screen and (max-width: 640px){
+	.iniciotexto h1{
+		font-size: 30px;
+	}
 	.conocimiento img{
 
 	padding: 0px 0px 0px 0px !important;
@@ -416,8 +437,18 @@ font-size: 45px;
 }
 
 @media screen and (max-width:560px){
+	.columnas img{
+	width: 300px;
+
+}
+	.inicioimagen img{
+	width: 300px;
+}
 		.ola{
-		padding-top: 100px;
+		padding-top: 70px;
+	}
+	.margen-ola{
+		padding-top: 0px;
 	}
 	.trabajo img{
 		width: 300px;
@@ -433,19 +464,15 @@ font-size: 45px;
 		font-size: 15px;
 		line-height: 25px;
 	}
-	.seccion2{
-		margin-bottom: 50px;
-	}
+
 }
 @media screen and (max-width:475px){
-	.inicio{
-		padding-top: 100px;
-	}
+
 }
 
 @media screen and (max-width:415px){
-	.inicio{
-		padding-top: 130px;
+	.Acerca-de-mi h2{
+		font-size: 24px;
 	}
 		.trabajo img{
 			width: 200px;
@@ -472,7 +499,8 @@ line-height: 30px;
 
 }
 .inicioimagen img{
-	width: 200px;
+	width: 210px;
+	margin-top: -40px;
 }
 .tituloservicios h2{
 	font-size: 25px;
@@ -492,7 +520,7 @@ line-height: 30px;
 }
 
 	.sobre-mi p{
-		font-size: 15px;
+		font-size: 14px;
 	}
 .footer-1 p{
 	font-size: 15px;
@@ -503,14 +531,20 @@ line-height: 30px;
 }
 }
 @media screen and (max-width:350px){
+	.trabajotitulo {
+	font-size: 16px;
+}
+		.iniciotexto h1{
+			font-size: 25px;
+		}
+		.columnas img{
+	width: 200px;
+
+}
 		.inicio{
 		padding-top: 80px;
 	}
-.seccion2{
-		margin-bottom: 90px;
-	}
-	.ola{
-		padding-top: 100px;
-	}
+
+	
 }
 }
