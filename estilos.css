@@ -287,7 +287,12 @@ margin: auto;
 }
 .columnas img{
 	width: 400px;
+	transition: .7s;
 }
+.columnas img:hover{
+	width: 415px;
+}
+
 
 .Acerca-de-mi{
 	background: #6C63FF;
