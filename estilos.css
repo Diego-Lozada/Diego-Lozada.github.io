@@ -283,8 +283,36 @@ margin-right: 0px;
 	background-image: linear-gradient(rgba(0, 0, 0, 8), rgba(0, 0, 0, 0.5)), url(computadora.jpg);
 	background-size: 1500px;
 }
+.acerca-de-mi{
+	width: 50%;
+	margin: 50px auto;
+	padding: 30px;
+	background: #fff;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,0.45);
+	box-sizing: border-box;
+}
+.acerca-de-mi .info{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.acerca-de-mi .info img{
+	width: 100px;
+	height: 100px;
+}
+.acerca-de-mi .info p{
+font-size: 14px;
+line-height: 22px;
+text-align: center;
+color: #4b4b4b;
+}
+
+.caja{
+
+}
 .columnas{
 max-width: 1280px;
+
 padding-top: 60px;
 padding-bottom: 60px;
 text-align: center;
@@ -437,6 +465,9 @@ font-size: 45px;
 }
 
 @media screen and (max-width:560px){
+	.acerca-de-mi{
+		width: 70%;
+	}
 	.columnas img{
 	width: 300px;
 
