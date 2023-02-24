@@ -1,0 +1,114 @@
+.contenedor_acerca_de_mi{
+      background: linear-gradient(to right,#00C2BA, #9E53EE); 
+ padding-top: 70px;	
+  overflow: hidden;
+  padding-bottom: 70px;	
+}
+.acerca_de_mi{
+	margin: auto;
+	width: 90%;
+	display: flex;
+   flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobre_mi img{
+	border-radius: 50%;
+	width: 200px;
+	align-items: center;
+	 display: block;
+  margin: auto;
+}
+.contenedor_acerca_de_mi .trabajotitulo{
+	margin-bottom: 50px;
+
+}
+.sobre_mi{
+	width: 45%;  position: relative;
+    width: 320px;
+   
+    margin: 30px;
+    box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(5px);
+       padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    transition: 0.5;
+
+}
+.sobre_mi p{
+	margin-top: 25px;
+	text-align: justify;
+	color: #fff;
+	font-size: 20px;
+}
+.sobre_mi2{
+	width: 45%;
+
+}
+
+.sobre_mi2 h2{
+	 text-shadow: 0 0 5px #fff, 0 0 15px #fff, 0 0 30px #fff, 0 0 50px #fff;
+color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 30px;
+   animation: movimiento 2.5s linear infinite; 
+}
+
+.sobre_mi2 ul li{
+	color: #fff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 30px;
+	list-style:none;
+	 text-shadow: 0 0 5px #00C2BA, 0 0 15px #00C2BA, 0 0 30px #00C2BA, 0 0 50px #00C2BA;
+	 line-height: 50px;
+}
+
+@media screen and (max-width:750px){
+  .contenedor_acerca_de_mi .trabajotitulo{
+    margin-bottom: 20px;
+  }
+  .sobre_mi{
+    width: 100%;
+  }
+    .sobre_mi2{
+    width: 100%;
+  }
+}
+
+@media screen and (max-width:590px){
+  .sobre_mi p{
+font-size: 16px;
+  }
+    .sobre_mi2 h2{
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width:390px){
+  .sobre_mi img{
+    width: 120px;
+  }
+  .sobre_mi p{
+font-size: 16px;
+  }
+    .sobre_mi2 h2{
+    font-size: 22px;
+  }
+   .sobre_mi2 ul li{
+    font-size: 20px;
+  }
+}
