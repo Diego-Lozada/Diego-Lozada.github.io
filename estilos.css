@@ -235,7 +235,14 @@ a{
     padding-top: 20px; 
     padding-bottom: -30px;
 }
-
+.titulos_portafolio{
+  padding: 15px 0px 5px 0px;
+}
+h4{
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+}
 .btn {
       text-shadow: 0 0 #fff, 0 0 15px #fff, 0 0 #fff, 0 0 50px #fff;
     color: #fff;
@@ -431,8 +438,7 @@ flex-wrap: wrap;
 
 display: flex;
 flex-direction: column;
-   
-margin: 0px 22px 50px 22px;
+/*margin: 0px 22px 50px 22px;*/
 }
 
 .trabajo img:hover{

@@ -46,8 +46,14 @@
     transition: 0.5;
 
 }
+
+.sobre_mi h5{
+  font-size: 30px;
+  color:#fff;
+  margin-top: 10px;
+}
 .sobre_mi p{
-	margin-top: 25px;
+	margin-top: 10px;
 	text-align: justify;
 	color: #fff;
 	font-size: 20px;
@@ -96,6 +102,12 @@ font-size: 16px;
     .sobre_mi2 h2{
     font-size: 25px;
   }
+
+.sobre_mi h5{
+  font-size: 20px;
+  color:#fff;
+  margin-top: 10px;
+}
 }
 
 @media screen and (max-width:390px){
@@ -111,4 +123,9 @@ font-size: 16px;
    .sobre_mi2 ul li{
     font-size: 20px;
   }
+  .sobre_mi h5{
+  font-size: 18px;
+  color:#fff;
+  margin-top: 10px;
+}
 }
